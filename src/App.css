@@ -1,0 +1,64 @@
+h5{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.2rem 0.2rem;
+  font-size: small;
+
+}
+h2{
+  text-align: center;
+}
+
+.card-body{
+  padding: 0rem 0rem;
+  font-family: 'boldFont';
+
+
+}
+.card-body p{
+  padding: 1rem 1rem;
+  text-align: center;
+  font-size: small;
+}
+.col-sm{
+  padding-top: calc(var(--bs-gutter-x)/ 2);
+}
+.btn-circle.btn-sm { 
+  width: 40px; 
+  height: 40px; 
+  padding: 1px 1px; 
+  border-radius: 20px; 
+  font-size: 20px; 
+  text-align: center; 
+  float: right;
+  margin-right: 8px;
+  
+} 
+hr{
+  color: #E30A17;
+  /* height: 10px; */
+  opacity: 1;
+  margin-top: 1px;
+  margin-left: 48%;
+  margin-right: 48%;
+}
+hr:not([size]) {
+  height: 3px;
+}
+
+footer{
+  position:center;
+  bottom:0;
+  width: 100%;
+  padding-top: 20px;
+  font-family: 'boldFont';
+
+ }
+
+@media (max-width: 576px) {
+  form{
+      display: none;
+  }
+}    
+
