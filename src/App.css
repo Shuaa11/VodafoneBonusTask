@@ -71,7 +71,7 @@ footer{
       display: none;
   }
   .navbar-brand{
-      margin: 0 auto;
+      margin: 0 25%;
       display: table;
   }
   .navbar-brand img{
