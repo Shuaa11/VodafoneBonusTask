@@ -25,7 +25,7 @@ function App() {
             <a className="navbar-brand" href="#">&nbsp;
               <img src={logo} alt="" width={200} height={50} />
             </a>
-            <form className>
+            <form className="col-md-5">
               {/* <input className="form-control me-2" type="search" placeholder="Search for contact" aria-label="Search" /> */}
 
               {/* Input Field for Search , its value  will be used in contacts component via props for filtering cards*/}
