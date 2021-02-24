@@ -1,3 +1,7 @@
+This project contains the bonus task, excluding the last two points. I have chosen react js for bonus task, since I was little familiar with it and I had to take sometime to learn more about it.
+
+It took me sometime to get used to it, I was not able to complete last 2 points due to insufficient time.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
