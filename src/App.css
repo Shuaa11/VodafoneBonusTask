@@ -1,29 +1,32 @@
+/* Card title styling */
 h5{
   background-color: black;
   color: white;
   text-align: center;
-  padding: 0.2rem 0.2rem;
-  font-size: small;
+  padding: 0.2rem 0.2rem !important;
+  font-size: small !important;
 
 }
+/* Contact title styling */
 h2{
   text-align: center;
 }
-
+/* Card body styling */
 .card-body{
-  padding: 0rem 0rem;
+  padding: 0rem 0rem !important;
   font-family: 'boldFont';
 
-
 }
+/* Contact information in the card styling */
 .card-body p{
-  padding: 1rem 1rem;
+  padding: 0.5rem 0.5rem;
   text-align: center;
   font-size: small;
 }
-.col-sm{
+.col-md-4{
   padding-top: calc(var(--bs-gutter-x)/ 2);
 }
+/* Add contact button styling */
 .btn-circle.btn-sm { 
   width: 40px; 
   height: 40px; 
@@ -33,32 +36,53 @@ h2{
   text-align: center; 
   float: right;
   margin-right: 8px;
-  
-} 
-hr{
-  color: #E30A17;
-  /* height: 10px; */
+  background: #E30A17;
+  color: white;
+  position: fixed;
+  right: 1rem;
+  bottom: 2rem;
+  z-index: 1000;
+}
+/* Red line under contact styling */
+.hr{
+  background-color: #E30A17;
+  height: 3px;
   opacity: 1;
   margin-top: 1px;
   margin-left: 48%;
   margin-right: 48%;
 }
-hr:not([size]) {
-  height: 3px;
+.container{
+  min-height: 89vh;
 }
-
+/* Footer styling */
 footer{
-  position:center;
-  bottom:0;
+  margin-top: auto;
+  /* position:center; */
+  /* bottom:0; */
   width: 100%;
   padding-top: 20px;
   font-family: 'boldFont';
 
- }
-
+}
+/*  Styling of search form and the vodafone logo in mobile screen*/
 @media (max-width: 576px) {
   form{
       display: none;
   }
-}    
+  .navbar-brand{
+      margin: 0 auto;
+      display: table;
+  }
+  .navbar-brand img{
+      width: 220px;
+      height: 60px;
+  }
+}   
+/* Styling of container in desktop screen  */
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 950px !important;
+}
+}
 
